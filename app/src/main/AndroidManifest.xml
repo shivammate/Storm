@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shivammishra.storm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".q1">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.q1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Correct">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Correct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wrong">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Wrong" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".q2">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.q2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Correct2">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Correct2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wrong2">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Wrong2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".q3">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.q3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Correct3">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Correct3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wrong3">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Wrong3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".end">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.end" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".q4">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.q4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Correct4">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Correct4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wrong4">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Wrong4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".q5">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.q5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Correct5">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Correct5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wrong5">
+            <intent-filter>
+                <action android:name="com.example.shivammishra.storm.Wrong5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
